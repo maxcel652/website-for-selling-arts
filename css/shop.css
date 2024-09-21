@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*----------------styling for the introductory page-------->*/
+.shop-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 50px 100px;
+}
+.md-1 h4{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.md-1 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.md-1 button{
+    border: none;
+    outline: none;
+    padding:  20px 30px;
+    border-radius: 26px;
+    transition: all .3s ease-in-out;
+}
+.md-1 button:hover a{
+    color: #fff;
+}
+.md-1 button:hover{
+    
+    background: #18191a;
+}
+
+.image{
+    max-width: 500px;
+}
+.image img{
+    width: 100%;
+    height: 500px;
+}
+
+/*===========shopping links==========*/
+.product-links{
+    margin:  60px;
+}
+.cat-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: inherit;
+
+}
+.cat-line h3{
+    font-size: 30px;
+}
+.cat-line .hr-line{
+    width: 100% ;
+    height: 2px;
+    background: #18191a;
+}
+.cat-links{
+    margin: 40px 0;
+}
+.cat-links a{
+    margin: 0 20px;
+    padding: 15px;
+    border: 1px solid crimson;
+    border-radius: 26px;
+    transition: all .2s ease-out;
+}
+.cat-links a:hover{
+    background: #18191a;
+    color: #fff;
+}
+
+/*================styling the painting page==========*/
+.painting-container{
+    padding: 50px;
+}
+.mp-painting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    gap: 2rem;
+    
+    
+}
+.mp-1{
+    max-width: 600px;
+}
+.mp-1 h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.mp-1  p{
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.mp-1 a{
+    border: 1px solid crimson;
+    padding: 15px 20px;
+    border-radius: 26px;
+    transition: .2s ease-in;
+}
+.mp-1 a:hover{
+    background: #18191a;
+    color: #fff;
+}
+.mp-2 .image{
+    max-width: 100%;
+    height: 100%;
+}
+.mp-2 .image img{
+    width: 100%;
+    height: 500px
+}
+/*-------------------end-------------*/
+.help-container{
+    text-align: center;
+    margin: 60px;
+}
+.help-container h4{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.help-container .help-links a{
+    margin: 0 50px;
+    font-size: 14px;
+    border: 1px solid crimson;
+    padding: 10px 15px;
+    border-radius: 26px;
+    transition: all .2s ease-in-out;
+}
+.help-links a:hover{
+    background: #18191a;
+    color: #fff;
+}
+
+
+
+
+
+
+/*-------------------------------------media query for mobiles------------*/
+@media (max-width:600px) {
+    .shop-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 10px;
+    }
+    .md-1{
+        text-align: center;
+    }
+    .md-1 h4{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .md-1 p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .md-1 button{
+        border: none;
+        outline: none;
+        padding:  20px 30px;
+        border-radius: 26px;
+        transition: all .3s ease-in-out;
+    }
+    .md-1 button:hover a{
+        color: #fff;
+    }
+    .md-1 button:hover{
+        
+        background: #18191a;
+    }
+    
+    .image{
+        max-width: 500px;
+    }
+    .image img{
+        width: 100%;
+        height: 500px;
+    }
+    
+    /*===========shopping links==========*/
+    .product-links{
+        margin:  10px;
+    }
+    .cat-line{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin: inherit;
+    
+    }
+    .cat-line h3{
+        font-size: 20px;
+    }
+    .cat-line .hr-line{
+        width: 100% ;
+        height: 2px;
+        background: #18191a;
+    }
+    .cat-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 10px;
+    }
+    .cat-links a{
+        margin: 5px 2px;
+        padding: 10px;
+        border: 1px solid crimson;
+        border-radius: 26px;
+        transition: all .2s ease-out;
+    }
+    .cat-links a:hover{
+        background: #18191a;
+        color: #fff;
+    }
+    
+    /*================styling the painting page==========*/
+    .painting-container{
+        margin: 30px 10px;
+        padding: 0;
+    }
+    .mp-painting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin: 10px;
+        gap: 1rem;
+        
+        
+    }
+    .mp-1{
+        max-width: 100%;
+        width: 100%;
+    }
+    .mp-1 h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .mp-1  p{
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    .mp-1 a{
+        border: 1px solid crimson;
+        padding: 15px 20px;
+        border-radius: 26px;
+        transition: .2s ease-in;
+    }
+    .mp-1 a:hover{
+        background: #18191a;
+        color: #fff;
+    }
+    .mp-2 .image{
+        max-width: 100%;
+        height: 100%;
+    }
+    .mp-2 .image img{
+        width: 100%;
+        height: 500px
+    }
+    /*-------------------end-------------*/
+    .help-container{
+        text-align: center;
+        margin: 30px 10px;
+    }
+    .help-container h4{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .help-container .help-links a{
+        margin: 0 10px;
+        font-size: 14px;
+        border: 1px solid crimson;
+        padding: 10px 15px;
+        border-radius: 26px;
+        transition: all .2s ease-in-out;
+    }
+    .help-links a:hover{
+        background: #18191a;
+        color: #fff;
+    }
+    
+    
+}

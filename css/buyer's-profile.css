@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.artist-nav-bar{
+    margin-top: 5rem;
+
+    
+   padding: 1rem;
+}
+.artist-nav-bar .nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.artist-containter h2{
+    margin: 30px 10px;
+}
+
+
+.profile-details{
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
+    gap: 1rem;
+}
+.image{
+    border: 2px dashed crimson;
+    padding: 40px;
+}
+.image button{
+    font-size: 20px;
+}
+.user-name h5{
+    margin: 0px 0 30px;
+}
+.edit-ptofile button{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.new-collection{
+    margin: 50px 5px;
+}
+.new-collection label{
+    font-size: 25px;
+    opacity: .5;
+}
+.new-collection button{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.edit-galery{
+    margin: 50px 10px;
+}
+.edit-galery label{
+    font-size: 25px;
+}
+.edit-galery button{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.add-items{
+    padding: 50px;
+    border: 2px dashed;
+    width: 250px;
+    margin: 40px 10px;
+}
+.add-items button{
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    .artist-nav-bar{
+        margin-top: 3rem;
+        padding: 0px;
+    }
+    .artist-nav-bar .nav-links{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+    }
+    .artist-nav-bar .nav-links li a{
+        font-size: 15px;
+    }
+   
+    .profile-details{
+        margin: 10px;
+        display: flex;
+        font-size: 20px;
+        gap: 1rem;
+    }
+    .image{
+        border: 2px dashed crimson;
+        padding: 40px;
+    }
+    .image button{
+        font-size: 15px;
+    }
+    .user-name h5{
+        margin: 0px 0 30px;
+    }
+    .edit-ptofile button{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .new-collection{
+        margin: 50px 5px;
+    }
+    .new-collection label{
+        font-size: 20px;
+        opacity: .5;
+    }
+    .new-collection button{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    .edit-galery{
+        margin: 50px 10px;
+    }
+    .edit-galery label{
+        font-size: 20px;
+    }
+    .edit-galery button{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    .add-items{
+        padding: 40px;
+        border: 2px dashed;
+        width: 230px;
+        margin: 40px 10px;
+    }
+    .add-items button{
+        font-size: 15px;
+    }
+    
+    
+}
